@@ -4,11 +4,15 @@
 This project uses the InsightFace library to perform live face swap using your device's webcam.
 
 📸 Description
+
 The script detects faces in real-time via the webcam and swaps the detected face with a source face from an image that is loaded in advance.
 
 It uses:
+
 insightface for face detection and analysis.
+
 An ONNX face swap model (inswapper_128.onnx).
+
 OpenCV for webcam handling and live result display.
 
 📁 Project Structure
