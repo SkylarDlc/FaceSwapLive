@@ -1,5 +1,6 @@
 # FaceSwapLive
 🧑‍🔬 Live Face Swap with InsightFace
+
 This project uses the InsightFace library to perform live face swap using your device's webcam.
 
 📸 Description
