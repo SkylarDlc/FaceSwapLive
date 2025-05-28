@@ -9,11 +9,11 @@ The script detects faces in real-time via the webcam and swaps the detected face
 
 It uses:
 
-insightface for face detection and analysis.
+* insightface for face detection and analysis.
 
-An ONNX face swap model (inswapper_128.onnx).
+* An ONNX face swap model (inswapper_128.onnx).
 
-OpenCV for webcam handling and live result display.
+* OpenCV for webcam handling and live result display.
 
 📁 Project Structure
 FaceSwapLive/
@@ -25,13 +25,13 @@ FaceSwapLive/
 
 ⚙️ Requirements
 
-Python 3.7+
+* Python 3.7+
 
-InsightFace
+* InsightFace
 
-OpenCV (cv2)
+* OpenCV (cv2)
 
-ONNX Runtime
+* ONNX Runtime
 
 Installation:
 
@@ -46,9 +46,9 @@ python face_swap_live.py
 
 ⚠️ Warnings
 
-The script uses CPUExecutionProvider; if you have a compatible GPU, you can change this to improve performance.
+* The script uses CPUExecutionProvider; if you have a compatible GPU, you can change this to improve performance.
 
-If no face is detected in the source image, the program will stop.
+* If no face is detected in the source image, the program will stop.
 
 💡 Credits
 
