@@ -24,12 +24,17 @@ FaceSwapLive/
 └── README.md                     # This file
 
 ⚙️ Requirements
+
 Python 3.7+
+
 InsightFace
+
 OpenCV (cv2)
+
 ONNX Runtime
 
 Installation:
+
 pip install insightface opencv-python onnxruntime
 
 🚀 How to Use
@@ -40,8 +45,11 @@ python face_swap_live.py
 4. Press the q key to close the window.
 
 ⚠️ Warnings
+
 The script uses CPUExecutionProvider; if you have a compatible GPU, you can change this to improve performance.
+
 If no face is detected in the source image, the program will stop.
 
 💡 Credits
+
 Based on the amazing InsightFace library.
